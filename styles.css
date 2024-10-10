@@ -2,12 +2,21 @@ body {
     background-color: #023605;
 }
 
-h1 {
+header {
     text-align: center;
     color: darkgoldenrod;
     font-size: xx-large;
     text-shadow: 2px 2px 5px rgba(34, 43, 2, 0.518);
+    background-color: #022704; 
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
 
 .gallery {
     display: flex;
@@ -30,6 +39,14 @@ h1 {
 
 .gallery-item:hover {
     transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgba(34, 43, 2, 0.518);
+    background-color: #022704; 
 }
 
 @media (max-width: 1024px) {
